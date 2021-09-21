@@ -34,6 +34,7 @@ app.use(cors(corsOptions));
 
 
 //api endpoints
+app.get('/', (req, res) => res.status(200).send("HELLLOOOOOO"));
 app.use("/product", require('./routes/product'));
 app.use("/users", require('./routes/user'));
 app.use("/comments", require('./routes/comments'));
