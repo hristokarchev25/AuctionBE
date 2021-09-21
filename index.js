@@ -17,7 +17,7 @@ mongoose.connect(db_url.connection_url, {
 
 app.use(express.json());
 let corsOptions = {
-    origin: 'https://zealous-pike-a82863.netlify.app',
+    origin: 'https://karchev-quiz.netlify.app',
     credentials: true
 }
 
