@@ -1,4 +1,4 @@
-# Auction Backend
+# Quiz Backend
 
 ##  Technology Stack
 NodeJS, ExpressJS;
