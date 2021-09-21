@@ -1,3 +1,11 @@
-# JS-Fundamentals
- Very old code 
-SoftUni Homework /2020/
+# Auction Backend
+
+##  Technology Stack
+NodeJS, ExpressJS;
+
+
+---
+
+## License & copyright
+
+Hristo Karchev
