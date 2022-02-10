@@ -17,8 +17,8 @@ mongoose.connect(db_url.connection_url, {
 
 app.use(express.json());
 let corsOptions = {
-    'Access-Control-Allow-Origin': '*',
-    credentials: false
+    orgin: 'https://karchev-quiz.netlify.app',
+    withCredentials: true
 }
 
 app.use(cors(corsOptions));
