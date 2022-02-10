@@ -18,7 +18,7 @@ mongoose.connect(db_url.connection_url, {
 app.use(express.json());
 let corsOptions = {
     'Access-Control-Allow-Origin': '*',
-    credentials: true
+    credentials: false
 }
 
 app.use(cors(corsOptions));
