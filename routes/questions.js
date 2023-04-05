@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const { Question } = require("../models/Question");
 
-//test
 router.get('/all', (req, res) => {
     Question.find((err, data) => {
         if (err) {
